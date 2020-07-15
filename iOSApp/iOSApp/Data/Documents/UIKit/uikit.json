@@ -1,0 +1,119 @@
+{
+    "name": "UIKit",
+    "type": 0,
+    "subtitle": "Construct and manage a graphical, event-driven user interface for your iOS or tvOS app."
+    "overview": "",
+    "topics": [{
+        "name": "Essentials",
+        "items": [{
+            "name": "About App Development with UIKit",
+            "type": 0,
+            "subtitle": "Learn about the basic support that UIKit and Xcode provide for your iOS and tvOS apps.",
+            "overview": ""
+        }, {
+            "name": "Protecting the User’s Privacy",
+            "type": 0,
+            "subtitle": "Secure personal data, and respect user preferences for how data is used.",
+            "overview": "",
+            "topics": [{
+                "name": "Supporting Privacy",
+                "items": [{
+                    "name": "Requesting Access to Protected Resources",
+                    "type": 0,
+                    "subtitle": "Provide a purpose string that explains to the user why you need access to protected resources.",
+                    "overview": ""
+                }, {
+                    "name": "Encrypting Your App’s Files",
+                    "type": 0,
+                    "subtitle": "Protect the user’s data in iOS by encrypting it on disk.",
+                    "overview": ""
+                }]
+            }]
+        }]
+    }, {
+        "name": "App Structure",
+        "desc": "UIKit manages your app's interactions with the system and provides classes for you to manage your app's data and resources.",
+        "items": [{
+            "name": "App and Environment",
+            "type": 0,
+            "subtitle": "Manage life-cycle events and your app’s UI scenes, and get information about traits and the environment in which your app runs.",
+            "overview": "",
+            "topics": [{
+                "name": "Life Cycle",
+                "items": [{
+                    "name": "Managing Your App's Life Cycle",
+                    "type": 0,
+                    "subtitle": "Respond to system notifications when your app is in the foreground or background, and handle other significant system-related events.",
+                    "overview": "",
+                    "topics": [{
+                        "name": "Behavioral Events",
+                        "items": [{
+                            "name": "Responding to Memory Warnings",
+                            "type": 0,
+                            "subtitle": "Free up memory when asked to do so by the system.",
+                            "overview": ""
+                        }]
+                    }]
+                }, {
+                    "name": "Responding to the Launch of Your App",
+                    "type": 0,
+                    "subtitle": "Initialize your app’s data structures, prepare your app to run, and respond to any launch-time requests from the system.",
+                    "overview": "",
+                    "topics": [{
+                        "name": "Launch Time",
+                        "items": [{
+                            "name": "About the App Launch Sequence",
+                            "type": 0,
+                            "subtitle": "Learn the order in which your custom code is executed at launch time.",
+                            "overview": ""
+                        }, {
+                            "name": "Performing One-Time Setup for Your App",
+                            "type": 0,
+                            "subtitle": "Ensure that your app environment is properly configured.",
+                            "overview": ""
+                        }, {
+                            "name": "Preserving Your App's UI Across Launches",
+                            "type": 0,
+                            "subtitle": "Return your app to its previous state after it is terminated by the system.",
+                            "overview": "",
+                            "topics": [{
+                                "name": "Process Details",
+                                "items": [{
+                                    "name": "About the UI Preservation Process",
+                                    "type": 0,
+                                    "subtitle": "Learn how to customize the UIKit state preservation process.",
+                                    "overview": ""
+                                }, {
+                                    "name": "About the UI Restoration Process",
+                                    "type": 0,
+                                    "subtitle": "Learn how to customize the UIKit state restoration process.",
+                                    "overview": ""
+                                }]
+                            }]
+                        }]
+                    }]
+                }, {
+                    "name": "UIApplication",
+                    "type": 1,
+                    "subtitle": "The centralized point of control and coordination for apps running in iOS.",
+                    "declaration": "class UIApplication : UIResponder",
+                    "overview": "",
+                    "topics": []
+                }, {
+                    "name": "UIApplicationDelegate",
+                    "type": 2,
+                    "subtitle": "A set of methods that you use to manage shared behaviors for your app.",
+                    "declaration": "protocol UIApplicationDelegate",
+                    "overview": "",
+                    "topics": []
+                }, {
+                    "name": "Scenes",
+                    "type": 0,
+                    "subtitle": "Manage multiple instances of your app’s UI simultaneously, and direct resources to the appropriate instance of your UI.",
+                    "overview": "",
+                    "topics": []
+                }]
+            }]
+        }]
+    }]
+}
